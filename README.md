@@ -1,2 +1,7 @@
 # poistats
-R package for Poisson distribution analysis - generate random numbers, calculate statistics, and create visualizations
+
+## Installation
+
+```r
+install.packages("devtools")
+devtools::install_github("SomGithub-Soton/poistats")
