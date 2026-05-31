@@ -1,0 +1,19 @@
+Package: poistats
+Title: Statistical Analysis Tools for Poisson Distributions
+Version: 0.1.0
+Authors@R: person("Somnath", "Chaudhuri", email = "somnath.chaudhuri@soton.ac.uk", 
+                  role = c("aut", "cre"))
+Description: Provides functions to generate random Poisson-distributed numbers,
+    calculate comprehensive summary statistics, and create visualizations 
+    including histograms, boxplots, violin plots, and density plots.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    patchwork
+RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
